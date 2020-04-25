@@ -1,0 +1,99 @@
+
+.contenedor{
+  width: 100%;
+}
+body{
+  background-color: black;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.carousel-inner img{
+  height: 490px;
+  width: 700px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+p{
+color: white;
+text-align: center;
+margin: 10px;
+margin-top:15px;
+}
+
+h2{
+  color:white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h5{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+ion-icon{
+  width: 35px;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+.redesfooter{
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.fiestas{
+  margin-left: 7px;
+}
+li{
+  margin-bottom: 10px;
+}
+
+h4{
+  margin-bottom: 20px;
+}
+h1{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.listapasos{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.listapasos li {
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+  display: block;
+
+}
+.listapasos li::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 80%;
+  background-color:white;
+  color: black;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 16px;
+}
+
+.listapasos{
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.listapasos a{
+  color: white;
+}

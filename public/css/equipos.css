@@ -1,0 +1,135 @@
+body{
+  background-color: black;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.contenedor{
+  width: 100%;
+}
+h1{
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  display: block;
+}
+.texto{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+ion-icon {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+    --ionicon-stroke-width: 20px;
+}
+
+.card{
+  background-color: white;
+  margin: 30px;
+  border-radius: 15px;
+}
+ .card img{
+   width: 230px;
+    height: 290px;
+    border-radius: 15px;
+ }
+ .cardcombo{
+   background-color: white;
+   margin: 30px;
+   border-radius: 15px;
+  margin-top: 95px;
+ }
+ .cardcombo img{
+   width: 230px;
+    height: 290px;
+    border-radius: 15px;
+ }
+
+
+.row{
+  background-color: white;
+}
+
+.card-img-top{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.card-img-topsub{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+h5{
+  text-align: center;
+}
+
+.precio{
+  text-align: center;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  border-radius: 15px;
+}
+.preciocombo1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: white;
+  width: 98%;
+  height: 290px;
+  margin-top: 30px;
+}
+.preciocombo2{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: white;
+  width: 98%;
+  height: 290px;
+  margin-top: 30px;
+}
+.preciocombo1 p{
+  background-color: red;
+  padding: 5px;
+  border-radius: 15px;
+}
+.preciocombo2 p{
+  background-color: red;
+  padding: 5px;
+  border-radius: 15px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.card-text{
+  padding: 10px;
+  border-radius: 15px;
+}
+.row{
+  background-color: black;
+}
+@media only screen and (max-width: 580px) {
+  .preciocombo2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: white;
+    width: 98%;
+    height: 290px;
+    margin-top: 55px;
+  }
+}

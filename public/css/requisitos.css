@@ -1,0 +1,62 @@
+body{
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  background-color: black;
+}
+.contenedor{
+  width: 100%;
+}
+h1{
+  text-align: center;
+  margin: 25px;
+  display: block;
+}
+
+.texto{
+  text-align: center;
+}
+h5{
+  color: black;
+}
+.texto2{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+.listadorequisitos {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.listadorequisitos li {
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+}
+.listadorequisitos li::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 80%;
+  background-color:white;
+  color: black;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 25px;
+}
+ion-icon {
+  display: inline-block;
+  vertical-align: middle;
+  color: red;
+    --ionicon-stroke-width: 20px;
+}
+.whatsapp img{
+display:block;
+margin:auto;
+width: 170px;
+height: 170px;
+}
