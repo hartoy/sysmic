@@ -12,23 +12,26 @@
     <h3>Dejanos tu mensaje</h3>
     <div id="form-main">
       <div id="form-div">
-        <form class="form" id="form1">
-
+        <form class="form" id="form1"action={{route('contact')}} method="POST">
+          {{ csrf_field() }}
           <p class="nombre">
-            <input name="nombre" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nombre" id="nombre" />
+            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nombre" id="nombre" />
           </p>
 
           <p class="email">
             <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
           </p>
+          <p class="celular">
+            <input name="celular" type="text" class="feedback-input" id="celular" placeholder="Celular" />
+          </p>
 
           <p class="text">
-            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="mensaje" placeholder=""></textarea>
+            <textarea name="msg" class="validate[required,length[6,300]] feedback-input" id="mensaje" placeholder=""></textarea>
           </p>
 
 
           <div class="enviar">
-            <input type="enviar" value="ENVIAR" id="boton"/>
+            <input type="submit" value="ENVIAR" id="boton"/>
             <div class="ease"></div>
           </div>
         </form>
@@ -37,28 +40,7 @@
         <h5>Tambien podes comunicarte por WhatsApp</h5>
         <a href="https://api.whatsapp.com/send?phone=5491130709261&text=&source=&data=&app_absent="><img src="../img/pngocean.com (1).png" alt=""></a>
       </div>
-      <div class="phpmailer-page">
-	@if ($message = Session::get('success'))
-	<div class="alert alert-success">
-	    <strong>{{ $message }}</strong>
-	</div>
-	@endif
 
-	@if ($message = Session::get('error'))
-	<div class="alert alert-error">
-	    <strong>{{ $message }}</strong>
-	</div>
-	@endif
-
-  	<div class="form">
-    	<form class="sendemail-form" method="POST" action="{{ action('PhpmailerController@sendEmail') }}">
-      		{{ csrf_field() }}
-      		<input type="text" name="subject" placeholder="Subject" required/>
-		    <textarea name="message" placeholder="Message" required></textarea>
-		    <button>Send Email</button>
-    	</form>
-  	</div>
-</div> 
     </div>
     @include('footer')
   </body>

@@ -30,3 +30,6 @@ Route::get('/contacto', function () {
 Route::get('/requisitos', function () {
     return view('requisitos');
 });
+
+Route::post('/contactar', 'EmailController@contact')->name('contact');
+//Ruta que esta señalando nuestro formulario

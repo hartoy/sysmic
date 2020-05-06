@@ -27,12 +27,11 @@
       </div>
     </div>
     <div class="col-md-6">
-  <div class="card" style="">
+  <div class="cardsub" style="">
     <img class="card-img-topsub" src="img/subwooferEKX18front.png" class="">
     <div class="card-body">
       <h5 class="card-title">Subwoofer EKX 18</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-      Agrego esta linea mas y un poco mas asi quedan iguales.</p>
+      <p class="card-text">Subwoofer activo de 18" pulgadas con amplificador. Es el nuevo miembro de la familia de altavoces portátiles combina la legendaria calidad de sonido y fiabilidad de EV con las últimas tecnologías, todo en un paquete compacto adecuado para una amplia gama de escenarios de refuerzo sonoro.</p>
       <p class="precio">Precio x unidad: $1800</p>
     </div>
   </div>
@@ -75,5 +74,8 @@
 @include('footer')
   </body>
   <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </html>

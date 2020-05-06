@@ -1,29 +1,4 @@
-.navbarr{
-    background-color: white;
-    font-family: 'Julius Sans One', sans-serif;
-    height: 100px;
-}
-.imgnavbar img{
-height: 80px;
-margin-top: 30px;
-}
-.botonesnavbar{
-margin-top: 30px;
-}
-
-.navbarr nav{
+img{
   height: 80px;
-}
-
-.botonesnavbar{
-  text-align: right;
-}
-@media only screen and (max-width: 580px) {
-  .imgnavbar img{
-  height: 80px;
-  margin-top: 5px;
-  }
-  .botonesnavbar{
-  margin-top: 10px;
-  }
+  width: 120px;
 }

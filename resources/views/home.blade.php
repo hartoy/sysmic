@@ -45,9 +45,9 @@
 </div>
 </div>
 <div class="pasos">
-  <h1>Como hago mi reserva?</h1>
+  <h1>¿Como hago mi reserva?</h1>
   <ul class="listapasos">
-    <li><a href="equipos"> Mira nuestros equipos y elegi tu combo</a></li>
+    <li><a href="equipos"> Mira nuestros equipos y  elegi tu combo</a></li>
     <li><a href="requisitos"> Revisa nuestros REQUISITOS</a></li>
     <li><a href="contacto"> Contactate con nosotros para completar tu reserva</a></li>
   </ul>

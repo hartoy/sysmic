@@ -1,7 +1,6 @@
 body{
   font-family: 'Julius Sans One', sans-serif;
   background-color: black;
-  text-align: center;
 }
 .contenedor{
   width: 100%;
@@ -9,6 +8,7 @@ body{
 h3{
   color: white;
   margin: 25px;
+  text-align: center;
 }
 #feedback-page{
 	text-align:center;
@@ -80,7 +80,19 @@ h3{
   background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
-
+#celular{
+	background-image: url(https://img.icons8.com/metro/2x/phone.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#celular:focus{
+	background-image: url(https://img.icons8.com/metro/2x/phone.png);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
 #email{
 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
 	background-size: 30px 30px;
