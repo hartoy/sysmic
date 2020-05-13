@@ -101,4 +101,14 @@ h1{
   .listapasos{
     text-align: center;
   }
+  .carousel-inner img{
+    height: 290px;
+    width: 500px;
+  }
+  .listapasos{
+  width: 100%;
+  }
+  .quienesomos p{
+
+  }
 }

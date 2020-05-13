@@ -6,6 +6,7 @@
     <title>SYSMIC</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home.css">
   </head>
   <body>
@@ -18,7 +19,7 @@
     rápida y efectivamente, además de flexibilidad en el retiro y entrega de los
     equipos.</p>
   </div>
-  <div class="carrusel mt-5 w-70 mb-5">
+  <div class="carrusel mt-5 w-70 mb-5 p-2">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">

@@ -6,17 +6,17 @@
     <title>SYSMIC</title>
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/equipos.css">
   </head>
   <body>
-
 <h1>Equipos</h1>
 <div class="texto">
   <p> <ion-icon size="large" name="alert-circle-outline"></ion-icon> Antes de realizar una reserva revisa nuestros <a href="requisitos"> REQUISITOS</a> para poder asegurarte que cumplas con todo lo necesario <ion-icon size="large" name="alert-circle-outline"></ion-icon> </p>
 </div>
 <div class="productos">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-sm-12 col-md-6">
     <div class="card" style="">
       <img class="card-img-top" src="img/parlanteZLX15front.png" class="">
       <div class="card-body">
@@ -26,7 +26,7 @@
       </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-sm-12 col-md-6">
   <div class="cardsub" style="">
     <img class="card-img-topsub" src="img/subwooferEKX18front.png" class="">
     <div class="card-body">
@@ -42,25 +42,25 @@
    <br>
    <h1>Combos</h1>
    <div class="row">
-     <div class="col-md-6">
+     <div class="col-sm-12 col-md-6">
      <div class="preciocombo1">
        <img class="combo1img" src="img/combo2parlantes.png">
        <p>COMBO  2 Parlantes ZLX 15 = $2800 </p>
      </div>
      </div>
-     <div class="col-md-6">
+     <div class="col-sm-12 col-md-6">
      <div class="preciocombo1">
        <img class="combo1img" src="img/combo4parlantes.png">
        <p>COMBO  4 Parlantes ZLX 15  = $5500 </p>
      </div>
      </div>
-     <div class="col-md-6">
+     <div class="col-sm-12 col-md-6">
    <div class="preciocombo1">
      <img class="combo1img" src="img/combo1.png">
      <p>COMBO  2 Parlantes ZLX 15 + Subwoofer EKX 18 = $4500 </p>
    </div>
    </div>
-   <div class="col-md-6">
+   <div class="col-sm-12 col-md-6">
    <div class="preciocombo2">
      <img class="combo2img" src="img/combo2.png">
      <p>COMBO  4 Parlantes ZLX 15 + Subwoofer EKX 18 = $7000 </p>
