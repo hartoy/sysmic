@@ -4,7 +4,7 @@
 }
 body{
   background-color: black;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Jura', sans-serif;
 }
 
 .carousel-inner img{
@@ -100,15 +100,17 @@ h1{
 @media only screen and (max-width: 580px) {
   .listapasos{
     text-align: center;
+    margin-right: 1px;
   }
   .carousel-inner img{
     height: 290px;
     width: 500px;
   }
-  .listapasos{
-  width: 100%;
+  .pasos{
+    text-align: justify;
   }
   .quienesomos p{
-
+   text-align: justify;
+   padding: 10px;
   }
 }

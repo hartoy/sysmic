@@ -6,9 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/navbar.css">
   </head>
-  <div class="">
   <nav class="navbar navbar-expand-lg py-3 navbar-light bg-white">
-    <img src="img/sysimicletrasblanco.jpg" alt="">
+    <a href="/"><img src="img/sysimicletrasblanco.jpg" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

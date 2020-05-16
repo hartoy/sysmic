@@ -1,5 +1,5 @@
 body{
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Jura', sans-serif;
   color: white;
   background-color: black;
 }
@@ -64,10 +64,11 @@ height: 170px;
   .listadorequisitos li{
     padding-left: 30px;
     padding-right: 30px;
-    text-align: left;
+    text-align: justify;
   }
   .texto{
     margin-left: 20px;
     margin-right: 20px;
+    text-align: justify;
   }
 }

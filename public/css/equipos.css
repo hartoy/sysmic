@@ -1,6 +1,6 @@
 body{
   background-color: black;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Jura', sans-serif;
 }
 .contenedor{
   width: 100%;
@@ -125,7 +125,7 @@ h5{
   padding: 5px;
   border-radius: 15px;
 }
-a{
+.texto a{
   text-decoration:underline;
   color: white;
 }
@@ -152,8 +152,10 @@ a{
   .texto{
     margin-left: 20px;
     margin-right: 20px;
+    text-align: justify;
   }
   .productos{
+    text-align: justify;
   }
   .combos{
     padding: 10px;
